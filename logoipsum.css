@@ -340,6 +340,7 @@
 }
 .recent-works {
   padding: 84px 80px 120px 80px;
+  text-align: center;
 }
 .works {
   display: flex;
@@ -444,7 +445,6 @@
 
   padding: 12px 32px;
   color: #ffffff;
-  margin-left: 540px;
 }
 .faqs-section {
   background: #f2faff;
@@ -606,7 +606,7 @@
 .project-mind {
   display: flex;
   align-items: center;
-  gap: 412px;
+  justify-content: space-between;
 }
 .talk {
   width: 200px;
@@ -661,7 +661,7 @@
 .footer {
   display: flex;
   padding: 96px 14px 90px 80px;
-  gap: 130px;
+  gap: 100px;
 }
 .logosum p {
   padding: 32px 0 32px 0;
@@ -729,7 +729,7 @@
   background: #333333;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  width: 308px;
+  /* width: 308px; */
   height: 54px;
   color: #f2faff;
   margin-top: 32px;
@@ -794,5 +794,123 @@
   .project-mind {
     flex-wrap: wrap;
     gap: 0;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero-section {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 49px 24px 101px 24px;
+  }
+  .provide-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-us {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 80px 24px;
+  }
+  .member-cards {
+    justify-content: center;
+  }
+  .works {
+    justify-content: center;
+  }
+  .provide p {
+    max-width: 100%;
+  }
+  .hero-pic img {
+    max-width: 100%;
+  }
+  .rating-cards {
+    flex-wrap: wrap;
+  }
+  .project-mind {
+    flex-wrap: wrap;
+  }
+  .project-in-mind {
+    padding: 110px 24px;
+    margin: 0 24px;
+  }
+  .footer {
+    flex-wrap: wrap;
+
+    padding: 96px 24px 90px 24px;
+  }
+  .faqs-section {
+    padding: 120px 24px;
+  }
+  .work-heading p {
+    max-width: 100%;
+  }
+  .expert-member {
+    max-width: 100%;
+  }
+  .navbar .navbar-sec2 {
+    display: none;
+  }
+  .navbar .navbar-sec3 {
+    display: none;
+  }
+  .navbar-logo img {
+    width: 100%;
+  }
+  .works-heading p {
+    width: 100%;
+  }
+  .recent-works {
+    padding: 84px 24px 120px 42px;
+  }
+  .menu-sec {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .member-section {
+    padding: 120px 24px;
+  }
+  .customer-ration-section {
+    padding: 110px 24px;
+  }
+  .provide-sec {
+    padding: 80px 24px;
+  }
+  .work1 img {
+    max-width: 100%;
+  }
+  .logosum p {
+    max-width: 100%;
+  }
+  .about-pictiure img {
+    max-width: 100%;
+  }
+  .provide-cards .card1 {
+    width: 100%;
+  }
+  .navbar {
+    padding: 32px 24px;
+  }
+  .hero-buttons .button-1 {
+    max-width: 173px;
+  }
+  .logosum p {
+    max-width: 280px;
+  }
+  .hero-buttons .button-2 {
+    max-width: 173px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 398px) {
+  .hero-buttons {
+    margin-left: 30px;
+  }
+  .hero-buttons .button-1 {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .hero-section .button-2 {
+    max-width: 100%;
   }
 }
